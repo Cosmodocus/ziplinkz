@@ -7,11 +7,11 @@ import HeroImage from '../assets/heroimage.jpg';
 
 const Hero = () => {
 	return (
-		<header className='md:py-30 pt-40'>
+		<header className='md:py-30 pt-40 px-6'>
 			<div className='container mx-auto px-4 flex flex-col lg:flex-row items-center '>
 				<div className='lg:w-1/2 py-4'>
 					<h1 className='text-4xl lg:text-6xl font-bold mb-6'>
-						Shorten Your Links
+						Shorten Your <span className='text-blue-500'>Links</span>
 					</h1>
 					<p className='text-lg lg:text-xl mb-8'>
 						ZipLinkz makes it simple to create short, memorable URLs that are

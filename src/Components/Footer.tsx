@@ -150,12 +150,12 @@ const Footer = () => {
 						<p className='text-sm text-gray-400'>
 							© 2024 ZipLinks. All rights reserved.
 						</p>
-					</div>
-					<div className='flex items-center'>
-						<FaTwitter className='text-white mr-4 hover:text-blue-500 cursor-pointer' />
-						<FaInstagram className='text-white mr-4 hover:text-blue-500 cursor-pointer' />
-						<FaLinkedin className='text-white mr-4 hover:text-blue-500 cursor-pointer' />
-						<FaFacebook className='text-white hover:text-blue-500 cursor-pointer' />
+						<div className='flex items-center'>
+							<FaTwitter className='text-white mr-4 hover:text-blue-500 cursor-pointer' />
+							<FaInstagram className='text-white mr-4 hover:text-blue-500 cursor-pointer' />
+							<FaLinkedin className='text-white mr-4 hover:text-blue-500 cursor-pointer' />
+							<FaFacebook className='text-white hover:text-blue-500 cursor-pointer' />
+						</div>
 					</div>
 				</div>
 			</div>

@@ -3,7 +3,7 @@ import AnalyticsImage from '../assets/analyticsimage.jpg';
 
 const Analytics = () => {
 	return (
-		<section className='py-8 lg:py-20'>
+		<section className='py-8 lg:py-20 px-6'>
 			<div className='container mx-auto px-4 flex flex-col lg:flex-row items-center'>
 				<div className='lg:w-1/2  mb-8 lg:mb-0'>
 					<img

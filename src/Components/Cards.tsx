@@ -2,7 +2,7 @@ import React from 'react';
 
 const Cards = () => {
 	return (
-		<section className='py-8 lg:py-20 bg-gray-100'>
+		<section className='py-8 lg:py-20 bg-gray-100 px-6'>
 			<div className='container mx-auto px-4'>
 				<h1 className='text-3xl lg:text-5xl font-bold text-center mb-6 lg:mb-12'>
 					Analytics Dashboard
