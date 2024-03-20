@@ -6,17 +6,21 @@ import Cards from '../Components/Cards';
 import Testimonials from '../Components/Testimonials';
 import FAQ from '../Components/FAQ';
 import Footer from '../Components/Footer';
+import CTA from '../Components/CTA';
 
 const Home = () => {
 	return (
 		<>
-			<Hero />
-			{/* <URLShortener /> */}
-			<Analytics />
-			<Cards />
-			<Testimonials />
-			<FAQ />
-			<Footer />
+			<main>
+				<Hero />
+				{/* <URLShortener /> */}
+				<Analytics />
+				<Cards />
+				<Testimonials />
+				<FAQ />
+				<CTA />
+				<Footer />
+			</main>
 		</>
 	);
 };

@@ -5,7 +5,6 @@ import Home from './Pages/Home';
 import Pricing from './Pages/Pricing';
 import Resources from './Pages/Resources';
 import Quote from './Pages/Quote';
-import Footer from './Components/Footer';
 
 const App = () => {
 	return (
@@ -29,7 +28,6 @@ const App = () => {
 					element={<Quote />}
 				/>
 			</Routes>
-			<Footer />
 		</>
 	);
 };

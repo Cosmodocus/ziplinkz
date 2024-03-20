@@ -12,7 +12,7 @@ const Hero = () => {
 			<div className='container mx-auto px-4 flex flex-col lg:flex-row items-center '>
 				<div className='lg:w-1/2 py-4'>
 					<h1 className='text-4xl lg:text-6xl font-bold mb-6'>
-						Shorten Your Links with Ease
+						Shorten Your Links
 					</h1>
 					<p className='text-lg lg:text-xl mb-8'>
 						ZipLinkz makes it simple to create short, memorable URLs that are
@@ -25,7 +25,7 @@ const Hero = () => {
 				</div>
 				<div className='lg:w-1/2'>
 					<img
-						className='w-full'
+						className='w-full rounded-lg'
 						src={HeroImage}
 						alt='Shorten Your Links'
 					/>

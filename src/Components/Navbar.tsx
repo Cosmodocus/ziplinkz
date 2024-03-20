@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { IoMenu } from 'react-icons/io5';
 
 const Navbar = () => {
 	return (
@@ -7,7 +8,7 @@ const Navbar = () => {
 			<Link to={'/'}>
 				<span className='text-4xl font-bold'>ZipLinkz</span>
 			</Link>
-			<ul className='flex gap-12'>
+			<ul className='md:flex  hidden gap-12'>
 				<li>
 					<Link
 						to={'/'}
@@ -32,26 +33,27 @@ const Navbar = () => {
 						Resources
 					</Link>
 				</li>
-				<li>
-					<Link
-						to={'/quote'}
-						className='text-gray-800 hover:text-blue-500'
-					>
-						Quote
-					</Link>
-				</li>
 			</ul>
-			<div className='flex gap-12'>
+			<div className='md:flex  hidden gap-12'>
 				<button className='text-gray-800 hover:text-blue-500 font-semibold'>
 					Log In
 				</button>
 				<button className='text-gray-800 hover:text-blue-500 font-semibold'>
 					Sign Up
 				</button>
-				<button className='border border-gray-800 text-gray-800 hover:text-white hover:bg-blue-500 font-semibold py-2 px-4 rounded-md'>
-					Get a Quote
+				<button>
+					<Link
+						to={'/quote'}
+						className='border border-gray-800 text-gray-800 hover:text-white hover:bg-blue-500 font-semibold py-2 px-4 rounded-md'
+					>
+						Get a Quote
+					</Link>
 				</button>
 			</div>
+			<IoMenu
+				className='cursor-pointer md:hidden flex'
+				size={35}
+			/>
 		</nav>
 	);
 };
