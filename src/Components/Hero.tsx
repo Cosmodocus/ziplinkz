@@ -3,7 +3,6 @@ import Google from '../assets/google-workspace.svg';
 import HootSuite from '../assets/hootsuite.svg';
 import MailGun from '../assets/mailgun.svg';
 import Meta from '../assets/meta.svg';
-import UserTesting from '../assets/user-testing.svg';
 import HeroImage from '../assets/heroimage.jpg';
 
 const Hero = () => {
@@ -31,31 +30,26 @@ const Hero = () => {
 					/>
 				</div>
 			</div>
-			<div className='container mx-auto px-4 flex justify-center items-center mt-8 flex-wrap'>
+			<div className='container  px-4  md:flex hidden justify-center items-center mt-8 '>
 				<img
 					src={Google}
 					alt='Google'
-					className='w-16 h-16 mx-4 my-4 lg:w-32 lg:h-32 lg:mx-8 lg:my-0'
+					className='w-28 h-28 mx-4 my-4 lg:w-40 lg:h-40 lg:mx-8 lg:my-0'
 				/>
 				<img
 					src={HootSuite}
 					alt='HootSuite'
-					className='w-16 h-16 mx-4 my-4 lg:w-32 lg:h-32 lg:mx-8 lg:my-0'
+					className='w-24 h-24 mx-4 my-4 lg:w-32 lg:h-32 lg:mx-8 lg:my-0'
 				/>
 				<img
 					src={MailGun}
 					alt='MailGun'
-					className='w-16 h-16 mx-4 my-4 lg:w-32 lg:h-32 lg:mx-8 lg:my-0'
+					className='w-24 h-24 mx-4 my-4 lg:w-32 lg:h-32 lg:mx-8 lg:my-0'
 				/>
 				<img
 					src={Meta}
 					alt='Meta'
-					className='w-16 h-16 mx-4 my-4 lg:w-32 lg:h-32 lg:mx-8 lg:my-0'
-				/>
-				<img
-					src={UserTesting}
-					alt='UserTesting'
-					className='w-16 h-16 mx-4 my-4 lg:w-32 lg:h-32 lg:mx-8 lg:my-0'
+					className='w-16 h-16 mx-4 my-4 lg:w-24 lg:h-24 lg:mx-8 lg:my-0'
 				/>
 			</div>
 		</header>
