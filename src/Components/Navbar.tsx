@@ -19,7 +19,7 @@ const Navbar = () => {
 				</li>
 				<li>
 					<Link
-						to={'/prices'}
+						to={'/pricing'}
 						className='text-gray-800 hover:text-blue-500'
 					>
 						Pricing
