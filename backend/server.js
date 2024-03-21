@@ -5,6 +5,12 @@ import fetch from 'node-fetch';
 const app = express();
 const port = 3001;
 
+app.get('/', (req, res) => {
+	res.json({ message: 'Welcome to the backend server' });
+});
+
+app.options('/api/v1/shorten', cors());
+
 app.use(
 	cors({
 		origin: 'http://localhost:5173/',

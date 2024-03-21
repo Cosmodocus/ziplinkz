@@ -7,7 +7,7 @@ import HeroImage from '../assets/heroimage.jpg';
 
 const Hero = () => {
 	return (
-		<header className='md:py-30 pt-40 px-6'>
+		<header className='md:py-30 py-40 px-6'>
 			<div className='container mx-auto px-4 flex flex-col lg:flex-row items-center '>
 				<div className='lg:w-1/2 py-4'>
 					<h1 className='text-4xl lg:text-6xl font-bold mb-6'>

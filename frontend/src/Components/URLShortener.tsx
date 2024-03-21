@@ -33,17 +33,19 @@ const URLShortener = () => {
 
 	return (
 		<section className='w-full bg-slate-100 py-24'>
-			<div className=' flex-col text-center items-center justify-center '>
-				<h1 className='lg:text-6xl text-4xl font-bold py-2'>URL Shortener</h1>
+			<div className='w-full flex flex-col text-center items-center justify-center '>
+				<h1 className='lg:text-6xl text-4xl font-bold py-4'>URL Shortener</h1>
 				<form onSubmit={fetchAPI}>
-					<input
-						className='border outline-none md:max-w-lg max-w-sm container py-2 px-4'
-						type='text'
-						value={url}
-						onChange={(event) => setURL(event.target.value)}
-						placeholder='Insert your URL'
-					/>
-					<button className='border px-4 py-2'>Shrink</button>
+					<div className='flex py-2'>
+						<input
+							className='border outline-none  container py-4 px-6  md:w-[40rem] w-60'
+							type='text'
+							value={url}
+							onChange={(event) => setURL(event.target.value)}
+							placeholder='Insert your URL'
+						/>
+						<button className='border px-6 py-4'>Shrink</button>
+					</div>
 				</form>
 				{error && <div className='text-red-500'>{error}</div>}
 				<div>
