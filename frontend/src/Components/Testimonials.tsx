@@ -1,4 +1,3 @@
-import React from 'react';
 import Person1 from '../assets/randomperson1.jpg';
 import Person2 from '../assets/randomperson2.jpg';
 import Person3 from '../assets/randomperson3.jpg';
