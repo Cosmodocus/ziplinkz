@@ -1,33 +1,53 @@
 import React from 'react';
+import { BiLinkExternal, BiBarcode, BiChart } from 'react-icons/bi';
+import URL from '../assets/url-icon.png';
+import QR from '../assets/qr-icon.png';
+import AnalyticsIcon from '../assets/analytics-icon.png';
 
 const Cards = () => {
 	return (
 		<section className='py-8 lg:py-20 bg-gray-100 px-6'>
 			<div className='container mx-auto px-4'>
-				<h1 className='text-3xl lg:text-5xl font-bold text-center mb-6 lg:mb-12'>
-					Analytics Dashboard
+				<h1 className='text-3xl lg:text-5xl font-bold text-center mb-6 '>
+					ZipLinkz Connection Board Platform
 				</h1>
 				<p className='text-lg text-center mb-8 lg:mb-16'>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-					eiusmod tempor incididunt ut labore et dolore magna aliqua.
+					ZipLinkz offers powerful tools to enhance your connections and boost
+					productivity. Create custom short URLs, dynamic QR codes, and gain
+					valuable insights with our analytics tracking feature.
 				</p>
 				<div className='grid grid-cols-1 lg:grid-cols-3 gap-8'>
 					<div className='bg-white p-6 lg:p-8 rounded-lg shadow-md'>
-						<h2 className='text-xl lg:text-2xl font-semibold mb-4'>
-							Analytics Card 1
+						<h2 className='flex gap-2 text-xl lg:text-2xl font-semibold mb-4'>
+							<img
+								className='w-[30px]'
+								src={URL}
+								alt=''
+							/>
+							URL Shortener
 						</h2>
 						<p className='text-gray-700 mb-4'>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-							eiusmod tempor incididunt ut labore et dolore magna aliqua.
+							Create custom short URLs to share your content easily and track
+							their performance. ZipLinkz allows you to generate branded short
+							links and monitor click-through rates.
 						</p>
 						<h3 className='text-lg font-semibold mb-2'>Features:</h3>
 						<ul className='text-gray-700 mb-4'>
-							<li>Feature 1</li>
-							<li>Feature 2</li>
-							<li>Feature 3</li>
+							<li>
+								<BiLinkExternal className='inline-block mr-2' />
+								Custom short URLs
+							</li>
+							<li>
+								<BiLinkExternal className='inline-block mr-2' />
+								QR Code generation
+							</li>
+							<li>
+								<BiLinkExternal className='inline-block mr-2' />
+								Analytics dashboard
+							</li>
 						</ul>
-						<button className='bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-full mb-4 w-full lg:w-auto'>
-							Action
+						<button className='bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-full mb-4 w-full '>
+							Get Started for Free
 						</button>
 						<a
 							href='#'
@@ -37,21 +57,36 @@ const Cards = () => {
 						</a>
 					</div>
 					<div className='bg-white p-6 lg:p-8 rounded-lg shadow-md'>
-						<h2 className='text-xl lg:text-2xl font-semibold mb-4'>
-							Analytics Card 2
+						<h2 className='flex gap-2 text-xl lg:text-2xl font-semibold mb-4'>
+							<img
+								className='w-[30px]'
+								src={QR}
+								alt=''
+							/>
+							QR Codes
 						</h2>
 						<p className='text-gray-700 mb-4'>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-							eiusmod tempor incididunt ut labore et dolore magna aliqua.
+							Generate dynamic QR codes to engage your audience and track their
+							interactions. ZipLinkz offers customizable QR code designs and
+							real-time analytics to monitor scans.
 						</p>
 						<h3 className='text-lg font-semibold mb-2'>Features:</h3>
 						<ul className='text-gray-700 mb-4'>
-							<li>Feature 1</li>
-							<li>Feature 2</li>
-							<li>Feature 3</li>
+							<li>
+								<BiBarcode className='inline-block mr-2' />
+								Custom QR code designs
+							</li>
+							<li>
+								<BiBarcode className='inline-block mr-2' />
+								Dynamic QR code generation
+							</li>
+							<li>
+								<BiBarcode className='inline-block mr-2' />
+								QR code analytics
+							</li>
 						</ul>
-						<button className='bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-full mb-4 w-full lg:w-auto'>
-							Action
+						<button className='bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-full mb-4 w-full '>
+							Get Started for Free
 						</button>
 						<a
 							href='#'
@@ -61,21 +96,36 @@ const Cards = () => {
 						</a>
 					</div>
 					<div className='bg-white p-6 lg:p-8 rounded-lg shadow-md'>
-						<h2 className='text-xl lg:text-2xl font-semibold mb-4'>
-							Analytics Card 3
+						<h2 className='flex gap-2 text-xl lg:text-2xl font-semibold mb-4'>
+							<img
+								className='w-[30px]'
+								src={AnalyticsIcon}
+								alt=''
+							/>
+							Analytics Tracking
 						</h2>
 						<p className='text-gray-700 mb-4'>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-							eiusmod tempor incididunt ut labore et dolore magna aliqua.
+							Gain valuable insights into user behavior with our powerful
+							analytics tracking feature. Monitor real-time data visualization,
+							customize reports, and optimize your marketing efforts.
 						</p>
 						<h3 className='text-lg font-semibold mb-2'>Features:</h3>
 						<ul className='text-gray-700 mb-4'>
-							<li>Feature 1</li>
-							<li>Feature 2</li>
-							<li>Feature 3</li>
+							<li>
+								<BiChart className='inline-block mr-2' />
+								Real-time data visualization
+							</li>
+							<li>
+								<BiChart className='inline-block mr-2' />
+								Customizable reporting
+							</li>
+							<li>
+								<BiChart className='inline-block mr-2' />
+								User behavior analytics
+							</li>
 						</ul>
-						<button className='bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-full mb-4 w-full lg:w-auto'>
-							Action
+						<button className='bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-full mb-4 w-full '>
+							Get Started for Free
 						</button>
 						<a
 							href='#'

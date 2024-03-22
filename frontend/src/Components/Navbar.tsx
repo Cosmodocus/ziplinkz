@@ -12,7 +12,7 @@ const Navbar = () => {
 
 	return (
 		<nav>
-			<div className='w-full flex justify-between items-center py-4 px-12 fixed top-0 bg-white shadow-lg'>
+			<div className='w-full flex justify-between items-center py-4 px-12 fixed top-0 bg-white shadow-lg z-10'>
 				<Link to={'/'}>
 					<span className='text-4xl font-bold'>ZipLinkz</span>
 				</Link>
@@ -68,7 +68,7 @@ const Navbar = () => {
 			{/* MOBILE RESPONSIVE MENU */}
 			{navbar && (
 				<div className='w-full flex flex-col bg-white z-10 fixed h-screen  gap-40'>
-					<div className='w-full flex justify-between items-center p-4 '>
+					<div className='w-full flex justify-between items-center p-4 px-12  '>
 						<Link to={'/'}>
 							<span className='text-4xl font-bold'>ZipLinkz</span>
 						</Link>
@@ -108,19 +108,19 @@ const Navbar = () => {
 						</li>
 					</ul>
 					<div
-						className='flex gap-8 items-center justify-center w-full h-1/3 border-t bg-gray-800'
+						className='flex gap-8 items-center justify-center w-full h-1/3 border-t bg-gray-800 '
 						onClick={handleNavbar}
 					>
-						<button className='text-white  font-semibold bg-gray-500  hover:bg-gray-600 py-3 px-5 rounded-md'>
+						<button className='text-white  font-semibold bg-gray-500  hover:bg-gray-600 py-2 px-4 rounded-md'>
 							Log In
 						</button>
-						<button className='text-white  font-semibold bg-gray-500 hover:bg-gray-600 py-3 px-5 rounded-md'>
+						<button className='text-white  font-semibold bg-gray-500 hover:bg-gray-600 py-2 px-4 rounded-md'>
 							Sign Up
 						</button>
 						<button>
 							<Link
 								to={'/quote'}
-								className='border border-gray-800 text-white  bg-blue-500 hover:bg-blue-600 font-semibold py-3 px-5 rounded-md'
+								className='border border-gray-800 text-white  bg-blue-500 hover:bg-blue-600 font-semibold py-2 px-4 rounded-md'
 							>
 								Get a Quote
 							</Link>
