@@ -13,7 +13,7 @@ const Hero = () => {
 					<h1 className='text-4xl lg:text-6xl font-bold mb-6'>
 						Shorten Your <span className='text-blue-500'>Linkz</span>
 					</h1>
-					<p className='text-lg lg:text-xl mb-8'>
+					<p className='text-lg lg:text-xl mb-8  text-gray-600'>
 						ZipLinkz makes it simple to create short, memorable URLs that are
 						perfect for sharing on social media, emails, and more. Start
 						shrinking your links today!

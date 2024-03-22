@@ -11,7 +11,7 @@ const Cards = () => {
 				<h1 className='text-3xl lg:text-5xl font-bold text-center mb-6 '>
 					ZipLinkz Connection Board Platform
 				</h1>
-				<p className='text-lg text-center mb-8 lg:mb-16'>
+				<p className='text-lg text-center mb-8 lg:mb-16  text-gray-600'>
 					ZipLinkz offers powerful tools to enhance your connections and boost
 					productivity. Create custom short URLs, dynamic QR codes, and gain
 					valuable insights with our analytics tracking feature.

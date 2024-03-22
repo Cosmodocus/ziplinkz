@@ -12,7 +12,7 @@ const Footer = () => {
 							<li>
 								<a
 									href='#'
-									className='hover:text-blue-500'
+									className='text-gray-400 hover:text-blue-500'
 								>
 									Features
 								</a>
@@ -20,7 +20,7 @@ const Footer = () => {
 							<li>
 								<a
 									href='#'
-									className='hover:text-blue-500'
+									className='text-gray-400 hover:text-blue-500'
 								>
 									Benefits
 								</a>
@@ -28,7 +28,7 @@ const Footer = () => {
 							<li>
 								<a
 									href='#'
-									className='hover:text-blue-500'
+									className='text-gray-400 hover:text-blue-500'
 								>
 									Testimonials
 								</a>
@@ -41,7 +41,7 @@ const Footer = () => {
 							<li>
 								<a
 									href='#'
-									className='hover:text-blue-500'
+									className='text-gray-400 hover:text-blue-500'
 								>
 									Business
 								</a>
@@ -49,7 +49,7 @@ const Footer = () => {
 							<li>
 								<a
 									href='#'
-									className='hover:text-blue-500'
+									className='text-gray-400 hover:text-blue-500'
 								>
 									Marketing
 								</a>
@@ -57,7 +57,7 @@ const Footer = () => {
 							<li>
 								<a
 									href='#'
-									className='hover:text-blue-500'
+									className='text-gray-400 hover:text-blue-500'
 								>
 									Education
 								</a>
@@ -70,7 +70,7 @@ const Footer = () => {
 							<li>
 								<a
 									href='#'
-									className='hover:text-blue-500'
+									className='text-gray-400 hover:text-blue-500'
 								>
 									Blog
 								</a>
@@ -78,7 +78,7 @@ const Footer = () => {
 							<li>
 								<a
 									href='#'
-									className='hover:text-blue-500'
+									className='text-gray-400 hover:text-blue-500'
 								>
 									Documentation
 								</a>
@@ -86,7 +86,7 @@ const Footer = () => {
 							<li>
 								<a
 									href='#'
-									className='hover:text-blue-500'
+									className='text-gray-400 hover:text-blue-500'
 								>
 									FAQ
 								</a>
@@ -99,7 +99,7 @@ const Footer = () => {
 							<li>
 								<a
 									href='#'
-									className='hover:text-blue-500'
+									className='text-gray-400 hover:text-blue-500'
 								>
 									Privacy Policy
 								</a>
@@ -107,7 +107,7 @@ const Footer = () => {
 							<li>
 								<a
 									href='#'
-									className='hover:text-blue-500'
+									className='text-gray-400 hover:text-blue-500'
 								>
 									Terms of Service
 								</a>
@@ -120,7 +120,7 @@ const Footer = () => {
 							<li>
 								<a
 									href='#'
-									className='hover:text-blue-500'
+									className='text-gray-400 hover:text-blue-500'
 								>
 									About Us
 								</a>
@@ -128,7 +128,7 @@ const Footer = () => {
 							<li>
 								<a
 									href='#'
-									className='hover:text-blue-500'
+									className='text-gray-400 hover:text-blue-500'
 								>
 									Contact Us
 								</a>
@@ -136,7 +136,7 @@ const Footer = () => {
 							<li>
 								<a
 									href='#'
-									className='hover:text-blue-500'
+									className='text-gray-400 hover:text-blue-500'
 								>
 									Careers
 								</a>
@@ -144,8 +144,8 @@ const Footer = () => {
 						</ul>
 					</div>
 				</div>
-				<div className='flex flex-col lg:flex-row justify-between items-center mt-8'>
-					<div className='mb-4 lg:mb-0'>
+				<div className='flex  flex-row justify-between items-center mt-8'>
+					<div className='mb-4 lg:mb-0 flex flex-col gap-2'>
 						<h1 className='text-xl lg:text-2xl font-bold'>ZipLinks</h1>
 						<p className='text-sm text-gray-400'>
 							© 2024 ZipLinks. All rights reserved.

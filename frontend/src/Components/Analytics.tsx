@@ -1,4 +1,10 @@
 import React from 'react';
+import {
+	FaEye,
+	FaMousePointer,
+	FaExchangeAlt,
+	FaComments,
+} from 'react-icons/fa';
 import AnalyticsImage from '../assets/analyticsimage.jpg';
 
 const Analytics = () => {
@@ -14,18 +20,22 @@ const Analytics = () => {
 				</div>
 				<div className='lg:w-1/2 lg:pl-8'>
 					<div className='flex flex-col justify-center h-full'>
-						<div className='mb-4'>
+						<div className='mb-4 flex items-center'>
+							<FaEye className='text-xl lg:text-3xl mr-4 text-blue-500' />
 							<h1 className='text-3xl lg:text-6xl font-bold'>324k viewers</h1>
 						</div>
-						<div className='mb-4'>
+						<div className='mb-4 flex items-center'>
+							<FaMousePointer className='text-xl lg:text-3xl mr-4 text-blue-500' />
 							<h1 className='text-3xl lg:text-6xl font-bold'>189k clicks</h1>
 						</div>
-						<div className='mb-4'>
+						<div className='mb-4 flex items-center'>
+							<FaExchangeAlt className='text-xl lg:text-3xl mr-4 text-blue-500' />
 							<h1 className='text-3xl lg:text-6xl font-bold'>
 								542k conversions
 							</h1>
 						</div>
-						<div className='mb-4'>
+						<div className='mb-4 flex items-center'>
+							<FaComments className='text-xl lg:text-3xl mr-4 text-blue-500' />
 							<h1 className='text-3xl lg:text-6xl font-bold'>
 								78k engagements
 							</h1>

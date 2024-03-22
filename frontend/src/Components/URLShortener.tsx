@@ -69,7 +69,7 @@ const URLShortener = () => {
 				<div>
 					{isLoading && !shortenedURL && <div>Loading...</div>}
 					{shortenedURL && (
-						<div className='border-2 px-4 py-2 shadow-sm rounded-md'>
+						<div className='border-2 px-4 py-2 shadow-sm rounded-md bg-blue-500 text-white'>
 							<div className='flex items-center justify-center gap-2'>
 								<span className='font-semibold md:flex hidden'>
 									Your Shortened URL:
@@ -78,7 +78,7 @@ const URLShortener = () => {
 									href={shortenedURL}
 									target='_blank'
 									rel='noopener noreferrer'
-									className='hover:underline hover:text-gray-900 border-r-2 border-r-gray-600   pr-2'
+									className='hover:underline hover:text-gray-100 border-r-2 border-r-gray-100   pr-2'
 								>
 									{shortenedURL}
 								</a>

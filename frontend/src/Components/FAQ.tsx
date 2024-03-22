@@ -11,7 +11,7 @@ const FAQ = () => {
 
 	return (
 		<section className='container mx-auto px-4 py-8 max-w-screen-md'>
-			<h1 className='text-3xl font-semibold mb-6'>
+			<h1 className='text-3xl font-semibold mb-6 '>
 				Frequently Asked Questions
 			</h1>
 			<div>
@@ -19,9 +19,9 @@ const FAQ = () => {
 					<div
 						key={faq.id}
 						onClick={() => handleSelected(faq.id)}
-						className='border border-gray-200 rounded-lg overflow-hidden mb-4'
+						className='  rounded-lg overflow-hidden mb-4  border'
 					>
-						<div className='flex justify-between items-center cursor-pointer bg-gray-100 py-4 px-6'>
+						<div className='flex justify-between items-center cursor-pointer bg-gray-200 hover:bg-gray-300 transition duration-300 ease-in-out py-4 px-6'>
 							<h2 className='text-lg font-semibold'>{faq.question}</h2>
 							<FaChevronDown
 								className={`transform ${
