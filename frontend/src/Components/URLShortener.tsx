@@ -34,6 +34,7 @@ const URLShortener = () => {
 			if (data.error) {
 				setIsLoading(false);
 				setError('Invalid URL, please enter a valid URL.');
+				setShortenedURL('');
 			}
 		} catch (error) {
 			console.error('Failed to fetch url', error);
