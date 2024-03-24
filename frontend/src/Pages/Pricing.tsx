@@ -10,7 +10,6 @@ const Pricing = () => {
 		<>
 			<PriceHead />
 			<PriceCards />
-			{/* <DetailedPricing /> */}
 			<CTA />
 			<Footer />
 		</>

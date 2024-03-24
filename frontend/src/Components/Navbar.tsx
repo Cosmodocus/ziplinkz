@@ -119,10 +119,10 @@ const Navbar = () => {
 						onClick={handleNavbar}
 					>
 						<button className='text-white  font-semibold bg-gray-500  hover:bg-gray-600 py-2 px-4 rounded-md'>
-							Log In
+							<Link to={'/login'}>Log In</Link>
 						</button>
 						<button className='text-white  font-semibold bg-gray-500 hover:bg-gray-600 py-2 px-4 rounded-md'>
-							Sign Up
+							<Link to={'/signup'}>Sign Up</Link>
 						</button>
 						<button>
 							<Link
