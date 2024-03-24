@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaHdd, FaUserShield, FaAd } from 'react-icons/fa';
+import { Link } from 'react-router-dom'; // Import Link from react-router-dom
 
 const PriceCards = () => {
 	return (
@@ -27,9 +28,12 @@ const PriceCards = () => {
 								<FaAd className='inline-block mr-2' /> Ads included
 							</li>
 						</ul>
-						<button className='bg-blue-500 text-white py-2 px-4 rounded-md hover:bg-blue-600'>
+						<Link
+							to='/signup'
+							className='bg-blue-500 text-white py-2 px-4 rounded-md hover:bg-blue-600 block text-center'
+						>
 							Get Started
-						</button>
+						</Link>
 					</div>
 					{/* Most Popular Plan */}
 					<div className='flex-1 bg-white p-6 rounded-lg shadow-md border-4 border-blue-500'>
@@ -52,9 +56,12 @@ const PriceCards = () => {
 								<FaAd className='inline-block mr-2' /> No ads
 							</li>
 						</ul>
-						<button className='bg-blue-500 text-white py-2 px-4 rounded-md hover:bg-blue-600'>
+						<Link
+							to='/signup'
+							className='bg-blue-500 text-white py-2 px-4 rounded-md hover:bg-blue-600 block text-center'
+						>
 							Get Started
-						</button>
+						</Link>
 					</div>
 					{/* Prime Plan */}
 					<div className='flex-1 bg-white p-6 rounded-lg shadow-md '>
@@ -74,9 +81,12 @@ const PriceCards = () => {
 								<FaAd className='inline-block mr-2' /> No interruptions
 							</li>
 						</ul>
-						<button className='bg-blue-500 text-white py-2 px-4 rounded-md hover:bg-blue-600'>
+						<Link
+							to='/signup'
+							className='bg-blue-500 text-white py-2 px-4 rounded-md hover:bg-blue-600 block text-center'
+						>
 							Get Started
-						</button>
+						</Link>
 					</div>
 					{/* Premium Plan */}
 					<div className='flex-1 bg-white p-6 rounded-lg shadow-md'>
@@ -97,9 +107,12 @@ const PriceCards = () => {
 								<FaAd className='inline-block mr-2' /> No limits
 							</li>
 						</ul>
-						<button className='bg-blue-500 text-white py-2 px-4 rounded-md hover:bg-blue-600'>
+						<Link
+							to='/signup'
+							className='bg-blue-500 text-white py-2 px-4 rounded-md hover:bg-blue-600 block text-center'
+						>
 							Get Started
-						</button>
+						</Link>
 					</div>
 				</div>
 			</div>

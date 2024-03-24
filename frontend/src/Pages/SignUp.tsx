@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom'; // Import Link from react-router-dom
 
 const Signup = () => {
 	return (
@@ -9,7 +10,7 @@ const Signup = () => {
 					<div className='mb-4'>
 						<label
 							htmlFor='email'
-							className='block text-gray-700'
+							className='block text-sm font-medium text-gray-700'
 						>
 							Email
 						</label>
@@ -22,7 +23,7 @@ const Signup = () => {
 					<div className='mb-4'>
 						<label
 							htmlFor='password'
-							className='block text-gray-700'
+							className='block text-sm font-medium text-gray-700'
 						>
 							Password
 						</label>
@@ -35,7 +36,7 @@ const Signup = () => {
 					<div className='mb-6'>
 						<label
 							htmlFor='confirmPassword'
-							className='block text-gray-700'
+							className='block text-sm font-medium text-gray-700'
 						>
 							Confirm Password
 						</label>
@@ -52,6 +53,15 @@ const Signup = () => {
 						Sign Up
 					</button>
 				</form>
+				<p className='text-center text-gray-600'>
+					Already have an account?{' '}
+					<Link
+						to='/login'
+						className='text-blue-500 hover:underline'
+					>
+						Login
+					</Link>
+				</p>
 			</div>
 		</div>
 	);

@@ -3,6 +3,7 @@ import { BiLinkExternal, BiBarcode, BiChart } from 'react-icons/bi';
 import URL from '../assets/url-icon.png';
 import QR from '../assets/qr-icon.png';
 import AnalyticsIcon from '../assets/analytics-icon.png';
+import { Link } from 'react-router-dom';
 
 const Cards = () => {
 	return (
@@ -46,15 +47,18 @@ const Cards = () => {
 								Analytics dashboard
 							</li>
 						</ul>
-						<button className='bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-full mb-4 w-full '>
-							Get Started for Free
-						</button>
-						<a
-							href='#'
+						<Link
+							to='/signup'
 							className='text-blue-500 hover:underline block text-center'
 						>
 							Learn More
-						</a>
+						</Link>
+						<Link
+							to='/signup'
+							className='bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-full mt-4 block text-center'
+						>
+							Get Started for Free
+						</Link>
 					</div>
 					<div className='bg-white p-6 lg:p-8 rounded-lg shadow-md'>
 						<h2 className='flex gap-2 text-xl lg:text-2xl font-semibold mb-4'>
@@ -85,15 +89,18 @@ const Cards = () => {
 								QR code analytics
 							</li>
 						</ul>
-						<button className='bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-full mb-4 w-full '>
-							Get Started for Free
-						</button>
-						<a
-							href='#'
+						<Link
+							to='/signup'
 							className='text-blue-500 hover:underline block text-center'
 						>
 							Learn More
-						</a>
+						</Link>
+						<Link
+							to='/signup'
+							className='bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-full mt-4 block text-center'
+						>
+							Get Started for Free
+						</Link>
 					</div>
 					<div className='bg-white p-6 lg:p-8 rounded-lg shadow-md'>
 						<h2 className='flex gap-2 text-xl lg:text-2xl font-semibold mb-4'>
@@ -124,15 +131,18 @@ const Cards = () => {
 								User behavior analytics
 							</li>
 						</ul>
-						<button className='bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-full mb-4 w-full '>
-							Get Started for Free
-						</button>
-						<a
-							href='#'
+						<Link
+							to='/signup'
 							className='text-blue-500 hover:underline block text-center'
 						>
 							Learn More
-						</a>
+						</Link>
+						<Link
+							to='/signup'
+							className='bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-full mt-4 block text-center'
+						>
+							Get Started for Free
+						</Link>
 					</div>
 				</div>
 			</div>
