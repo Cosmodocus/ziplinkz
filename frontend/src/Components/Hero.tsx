@@ -4,6 +4,7 @@ import HootSuite from '../assets/hootsuite.svg';
 import MailGun from '../assets/mailgun.svg';
 import Meta from '../assets/meta.svg';
 import HeroImage from '../assets/heroimage.jpg';
+import { Link } from 'react-router-dom';
 
 const Hero = () => {
 	return (
@@ -19,7 +20,7 @@ const Hero = () => {
 						shrinking your links today!
 					</p>
 					<button className='bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-6 rounded-full shadow-lg'>
-						Get Started
+						<Link to='/signup'>Get Started</Link>
 					</button>
 				</div>
 				<div className='lg:w-1/2'>

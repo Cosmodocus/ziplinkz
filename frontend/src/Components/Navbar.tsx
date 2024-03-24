@@ -71,7 +71,7 @@ const Navbar = () => {
 				</div>
 				<IoMenu
 					className='md:hidden flex cursor-pointer'
-					size={30}
+					size={35}
 					onClick={handleNavbar}
 				/>
 			</div>
@@ -95,13 +95,13 @@ const Navbar = () => {
 							</span>
 						</Link>
 						<IoClose
-							size={30}
+							size={35}
 							className='cursor-pointer'
 							onClick={handleNavbar}
 						/>
 					</div>
 					<ul
-						className='flex flex-col gap-8 text-2xl px-4'
+						className='flex flex-col gap-12 text-2xl px-4'
 						onClick={handleNavbar}
 					>
 						<li>
