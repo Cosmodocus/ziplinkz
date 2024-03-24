@@ -1,4 +1,3 @@
-import React from 'react';
 import Webinars from '../assets/webinars.jpg';
 
 const FeaturedResource = () => {

@@ -1,4 +1,3 @@
-import React from 'react';
 import { BiLinkExternal, BiBarcode, BiChart } from 'react-icons/bi';
 import URL from '../assets/url-icon.png';
 import QR from '../assets/qr-icon.png';

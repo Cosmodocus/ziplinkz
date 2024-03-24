@@ -1,5 +1,3 @@
-import React from 'react';
-import { FaTwitter, FaInstagram, FaFacebook, FaLinkedin } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 
 const CTA = () => {

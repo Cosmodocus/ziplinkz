@@ -1,4 +1,4 @@
-import React, { FormEvent, useState } from 'react';
+import { FormEvent, useState } from 'react';
 import CopyClipboard from './CopyClipboard';
 import QRCode from 'qrcode.react';
 

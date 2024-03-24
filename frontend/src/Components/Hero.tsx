@@ -1,4 +1,3 @@
-import React from 'react';
 import Google from '../assets/google-workspace.svg';
 import HootSuite from '../assets/hootsuite.svg';
 import MailGun from '../assets/mailgun.svg';

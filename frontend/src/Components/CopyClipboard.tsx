@@ -1,4 +1,3 @@
-import React from 'react';
 import { FaCopy } from 'react-icons/fa';
 
 type CopyClipboardProps = {

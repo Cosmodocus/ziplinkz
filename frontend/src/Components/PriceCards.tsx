@@ -1,4 +1,3 @@
-import React from 'react';
 import { FaHdd, FaUserShield, FaAd } from 'react-icons/fa';
 import { Link } from 'react-router-dom'; // Import Link from react-router-dom
 

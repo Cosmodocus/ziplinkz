@@ -1,4 +1,3 @@
-import React from 'react';
 import Webinars from '../assets/webinars.jpg';
 import Infographics from '../assets/infographics.jpg';
 import CaseStudy from '../assets/case-study.jpg';

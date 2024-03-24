@@ -1,5 +1,3 @@
-import React from 'react';
-
 const PriceHead = () => {
 	return (
 		<header className='pt-40 pb-28 flex items-center justify-center flex-col gap-4 text-left mx-4'>

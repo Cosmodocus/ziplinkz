@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { faqs, FAQItem } from '../data';
 import { FaChevronDown } from 'react-icons/fa';
 
