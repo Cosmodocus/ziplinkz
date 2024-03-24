@@ -14,7 +14,9 @@ const Navbar = () => {
 		<nav>
 			<div className='w-full flex justify-between items-center py-4 px-12 fixed top-0 bg-white shadow-lg z-10'>
 				<Link to={'/'}>
-					<span className='text-4xl font-bold'>ZipLinkz</span>
+					<span className='text-4xl font-bold'>
+						Zip<span className='text-blue-500'>Linkz</span>
+					</span>
 				</Link>
 				<ul className='md:flex  hidden gap-12'>
 					<li>
@@ -44,10 +46,10 @@ const Navbar = () => {
 				</ul>
 				<div className='md:flex hidden gap-12'>
 					<button className='text-gray-800 hover:text-blue-500 font-semibold'>
-						Log In
+						<Link to={'/login'}>Log In</Link>
 					</button>
 					<button className='text-gray-800 hover:text-blue-500 font-semibold'>
-						Sign Up
+						<Link to={'/signup'}>Sign Up</Link>
 					</button>
 					<button>
 						<Link
@@ -69,8 +71,13 @@ const Navbar = () => {
 			{navbar && (
 				<div className='w-full flex flex-col bg-white z-10 fixed h-screen  gap-40'>
 					<div className='w-full flex justify-between items-center p-4 px-12  '>
-						<Link to={'/'}>
-							<span className='text-4xl font-bold'>ZipLinkz</span>
+						<Link
+							to={'/'}
+							onClick={handleNavbar}
+						>
+							<span className='text-4xl font-bold'>
+								Zip<span className='text-blue-500'>Linkz</span>
+							</span>
 						</Link>
 						<IoClose
 							size={30}

@@ -4,6 +4,8 @@ import Home from './Pages/Home';
 import Pricing from './Pages/Pricing';
 import Resources from './Pages/Resources';
 import Quote from './Pages/Quote';
+import Login from './Pages/Login';
+import SignUp from './Pages/SignUp';
 
 const App = () => {
 	return (
@@ -21,6 +23,14 @@ const App = () => {
 				<Route
 					path='/resources'
 					element={<Resources />}
+				/>
+				<Route
+					path='/login'
+					element={<Login />}
+				/>
+				<Route
+					path='/signup'
+					element={<SignUp />}
 				/>
 				<Route
 					path='/quote'
