@@ -1,4 +1,3 @@
-import React from 'react';
 import PriceHead from '../Components/PriceHead';
 import PriceCards from '../Components/PriceCards';
 import CTA from '../Components/CTA';
