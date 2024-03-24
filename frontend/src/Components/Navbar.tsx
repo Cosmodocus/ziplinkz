@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { IoMenu, IoClose } from 'react-icons/io5';
+import ZipLinkz from '../assets/ziplinkzbrand.png';
 
 const Navbar = () => {
 	const [navbar, setNavbar] = useState(false);
@@ -13,7 +14,15 @@ const Navbar = () => {
 	return (
 		<nav>
 			<div className='w-full flex justify-between items-center py-4 px-12 fixed top-0 bg-white shadow-lg z-10'>
-				<Link to={'/'}>
+				<Link
+					to={'/'}
+					className='flex items-center justify-center'
+				>
+					<img
+						src={ZipLinkz}
+						alt=''
+						className='w-[45px]'
+					/>
 					<span className='text-4xl font-bold'>
 						Zip<span className='text-blue-500'>Linkz</span>
 					</span>
@@ -74,8 +83,14 @@ const Navbar = () => {
 						<Link
 							to={'/'}
 							onClick={handleNavbar}
+							className='flex items-center justify-center'
 						>
-							<span className='text-4xl font-bold'>
+							<img
+								src={ZipLinkz}
+								alt=''
+								className='w-[45px]'
+							/>
+							<span className='text-4xl font-bold '>
 								Zip<span className='text-blue-500'>Linkz</span>
 							</span>
 						</Link>
